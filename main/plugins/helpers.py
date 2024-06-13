@@ -59,7 +59,7 @@ async def force_sub(client, channel, id, ft):
     except UserNotParticipantError:
         s, r = True, f"To use this bot you've to join @{channel}."
     except Exception:
-        s, r = True, "ERROR: Add in ForceSub channel, or check your channel id."
+        s, r = True, "𝐁𝐨𝐭 𝐮𝐧𝐝𝐞𝐫 𝐦𝐚𝐢𝐧𝐭𝐞𝐧𝐚𝐧𝐜𝐞 𝐩𝐥𝐞𝐚𝐬𝐞 𝐰𝐚𝐢𝐭    𝐎𝐑    𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐰𝐧𝐞𝐫 **@RAJPUT681830**"
     return s, r
 
 #------------------------------
